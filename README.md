@@ -29,7 +29,7 @@ This automation uses three parts:
 2. **n8n** (the workflow engine that connects everything)
 3. **ChatGPT** (the AI brain that classifies and drafts responses)
 
-**Flow:**
+**Flow:**  
 Slack message in `#support` → n8n receives it → ChatGPT analyzes it → n8n posts:
 - a threaded clarification (if needed)
 - a routed summary to the correct channel
